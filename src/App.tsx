@@ -30,7 +30,6 @@ const ProjectCard = ({
 }: {
   title: string;
   description: string;
-  url: string;
 }) => {
   return (
     <CardHeader className="cursor-pointer">
@@ -297,7 +296,6 @@ function App() {
             <ProjectCard
               title="Resit Cukai"
               description="Simplify receipt storage and organization securely for seamless e-filing and easy access to purchase records."
-              url=""
             />
           </Card>
           <Card
@@ -307,7 +305,6 @@ function App() {
             <ProjectCard
               title="Encreept"
               description="A one-click solution for securely hashing plaintext using SHA-256, ensuring data integrity and confidentiality with ease."
-              url=""
             />
           </Card>
           <Card
@@ -319,7 +316,6 @@ function App() {
             <ProjectCard
               title="Webpee"
               description="Convert images to WebP format for optimized web use, improving performance and reducing file sizes effectively."
-              url=""
             />
           </Card>
           <Card
@@ -329,7 +325,6 @@ function App() {
             <ProjectCard
               title="Quurls"
               description="Quick URL Shortener, efficiently shorten URLs to create compact links, enhancing readability and optimizing space in communications and online sharing."
-              url=""
             />
           </Card>
           <Card
@@ -339,7 +334,6 @@ function App() {
             <ProjectCard
               title="Nak Masak Apa"
               description="Explore a curated collection of recipes crafted by Khairul Aming, featuring diverse culinary delights for every occasion and palate"
-              url=""
             />
           </Card>
 
