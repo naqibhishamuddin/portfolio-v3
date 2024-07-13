@@ -376,11 +376,3 @@ function App() {
 }
 
 export default App;
-
-/**
- * TOOS:
- *
- * 1. Awards
- * 2. Research Paper
- * 3. Community (conference)
- */
