@@ -102,14 +102,15 @@ function App() {
                 Naqib Hishamuddin.
               </TypographyH3>
               <TypographyMuted className="text-muted-foreground font-light">
-                A full stack developer with a strong focus on frontend
-                development, particularly within the React and React Native
-                ecosystem. With a solid foundation in Node.js for backend
-                solutions, I am dedicated to creating dynamic and responsive web
-                applications. My approach is driven by a passion for delivering
-                intuitive and seamless user experiences, while constantly
-                staying updated with the latest industry trends to bring fresh
-                and effective ideas to every project.
+                As a Full-Stack Developer, I specialize in Frontend Development,
+                emphasizing React and React Native technologies. My portfolio
+                spans a diverse range of projects across sectors such as
+                education, e-commerce, courier delivery, human resource
+                management, and inventory management. Presently, I am engaged in
+                innovating within the Digital Banking sphere. My experience
+                encompasses developing user-centric web applications that
+                significantly enhance user experience and operational
+                efficiency.
               </TypographyMuted>
               <Button className="md:flex md:w-1/2 py-6 gap-2">
                 Download Resume
@@ -193,8 +194,8 @@ function App() {
             <CardHeader className="space-y-2">
               <TypographyH4 className="text-gray-200">Experience.</TypographyH4>
               <TypographyMuted className="text-gray-300">
-                Here is a summary of my professional journey, showcasing my
-                expertise and contributions across various roles and industries.
+                Putting my professional journey, and underlining my expertise
+                across multiple roles and industries.
               </TypographyMuted>
             </CardHeader>
           </Card>
@@ -245,22 +246,21 @@ function App() {
             <CardHeader className="space-y-2">
               <TypographyH4 className="text-gray-200">Experience.</TypographyH4>
               <TypographyMuted className="text-gray-300">
-                Encapsulating my professional journey, highlighting expertise
-                and impactful contributions across diverse roles and industries.
+                Putting my professional journey, and underlining my expertise
+                across multiple roles and industries.
               </TypographyMuted>
             </CardHeader>
           </Card>
           {/** Projects */}
           <Card className="md:col-span-8 bg-primary flex flex-col justify-end">
             <GlowingStarsBackgroundCard>
-              <CardHeader className="max-w-md">
+              <CardHeader className="max-w-lg">
                 <TypographyH4 className=" text-gray-200">Project.</TypographyH4>
                 <TypographyMuted className="text-gray-300">
-                  Explore a curated selection of my impactful projects,
-                  showcasing innovative solutions and meticulous craftsmanship
-                  across diverse domains and industries. Each project highlights
-                  my commitment to excellence and creative problem-solving in
-                  software development.
+                  Explore a collection of my projects, each showcasing tailored
+                  solutions to unique challenges. Every project reflects a
+                  commitment to understanding specific needs and finding
+                  practical, meaningful ways to meet them collaboratively.
                 </TypographyMuted>
               </CardHeader>
             </GlowingStarsBackgroundCard>
@@ -342,8 +342,7 @@ function App() {
             <CardHeader>
               <TypographyH4 className=" text-gray-200">Education.</TypographyH4>
               <TypographyMuted className="text-gray-300">
-                Summary of my academic journey, highlighting qualifications and
-                areas of specialization.
+                This is a summary of my academic journey and qualifications.
               </TypographyMuted>
             </CardHeader>
           </Card>
