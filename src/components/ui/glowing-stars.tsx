@@ -60,7 +60,6 @@ export const GlowingStarsTitle = ({
 export const Illustration = ({ mouseEnter }: { mouseEnter: boolean }) => {
   const stars = 108;
   const columns = 18;
-
   const [glowingStars, setGlowingStars] = useState<number[]>([]);
 
   const highlightedStars = useRef<number[]>([]);
@@ -73,7 +72,9 @@ export const Illustration = ({ mouseEnter }: { mouseEnter: boolean }) => {
       setGlowingStars([...highlightedStars.current]);
     }, 3000);
 
-    return () => clearInterval(interval);
+    return () => {
+      clearInterval(interval);
+    };
   }, []);
 
   return (
@@ -81,17 +82,17 @@ export const Illustration = ({ mouseEnter }: { mouseEnter: boolean }) => {
       className="h-24 p-1 w-full"
       style={{
         display: "grid",
-        gridTemplateColumns: `repeat(${columns}, 1fr)`,
+        gridTemplateColumns: `repeat(${columns.toString()}, 1fr)`,
         gap: `1px`,
       }}
     >
-      {[...Array(stars)].map((_, starIdx) => {
+      {Array.from(Array(stars).keys()).map((_, starIdx) => {
         const isGlowing = glowingStars.includes(starIdx);
         const delay = (starIdx % 10) * 0.1;
         const staticDelay = starIdx * 0.01;
         return (
           <div
-            key={`matrix-col-${starIdx}}`}
+            key={`matrix-col-${starIdx.toString()}}`}
             className="relative flex items-center justify-center"
           >
             <Star
